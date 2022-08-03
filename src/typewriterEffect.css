@@ -1,3 +1,20 @@
 body {
 	font-family: monospace;
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
+	background-color: rgb(45, 45, 45);
+}
+
+textarea {
+	width: 50%;
+	height: 200px;
+	padding: 10px;
+	background-color: transparent;
+	resize: none;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 147, 147);
+    box-shadow: 1px 1px 1px #999;
+	color: rgb(167, 159, 159);
 }
