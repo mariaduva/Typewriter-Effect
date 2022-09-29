@@ -7,7 +7,7 @@ body {
 }
 
 textarea {
-	width: 50%;
+	width: 40%;
 	height: 200px;
 	padding: 10px;
 	background-color: transparent;
@@ -16,5 +16,28 @@ textarea {
     border-radius: 5px;
     border: 1px solid rgb(150, 147, 147);
     box-shadow: 1px 1px 1px #999;
-	color: rgb(167, 159, 159);
+	color: rgb(207, 207, 207);
+}
+
+button {
+	width: 180px;
+	height: 40px;
+	padding: 10px;
+	background-color: rgb(80, 78, 78);
+	color: #fff;
+	border: 1px solid rgb(86, 86, 86);
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #999;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(207, 207, 207);
+	color: rgb(45, 45, 45);
+}
+
+.container {
+	margin: 20px;
+	position: relative;
+	overflow: hidden;
 }
